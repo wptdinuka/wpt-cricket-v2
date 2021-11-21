@@ -1,9 +1,10 @@
 import Link from 'next/link'
+import styles from '../styles/Layout.module.scss'
 
 export const Navbar = () => {
     return (
         <nav>
-            <ul className='navbar'>
+            <ul className={styles.navbar}>
                 <li>
                     <Link href='/'>Home</Link>
                 </li>

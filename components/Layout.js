@@ -5,12 +5,14 @@ import styles from '../styles/Layout.module.scss'
 const Layout = ({children}) => {
     return (
         <div className={styles.container}>
-            <h1  className={styles.title}>
+            <div className={styles.header}>
+            <h1>
                  WPT-Movies
-             </h1>
-             <h2  className={styles.subtitle}>
+            </h1>
+            <h2>
                  -Recommedations and Reviews-
-             </h2>
+            </h2>
+             </div>
             <Navbar/>
             <main className={styles.main}>{children}</main>
             
