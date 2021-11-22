@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Hero from '../components/Hero'
 import styles from '../styles/Layout.module.scss'
 
 function Home() {
@@ -12,11 +13,9 @@ function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Home
-        </h1>
-
         
+
+        <Hero/>
       </main>
 
     

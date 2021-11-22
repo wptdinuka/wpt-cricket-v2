@@ -5,7 +5,7 @@
   text-align: start;
   background-color: #0070f3;
   padding-left: 20px;
-  margin-left: 20px;
+  margin-top: 2rem;
   h1 {
     padding-top: 20px;
     margin: 0;
@@ -58,11 +58,12 @@
     font-size: 25px;
     font-weight: 600;
     row-gap: 20px;
+    text-align: center;
 
     .navitem {
       font-size: 30px;
       border: #0070f3 2px solid;
-      padding-left: 10px;
+      background: transparent;
 
       :link {
         text-decoration: none;
@@ -70,8 +71,8 @@
     }
 
     :hover {
-      padding-left: 30px;
-      transition: 0.6s;
+      color: black;
+      transition: 0.3s;
     }
   }
 }
@@ -87,12 +88,32 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  video {
+    width: 100%;
+  }
+}
+
+.hero {
+  h1 {
+    color: white;
+    position: absolute;
+    background: rgba(black, 0.7);
+    text-align: center;
+    font-size: 80px;
+    line-height: 55px;
+    font-weight: 500;
+    width: 83%;
+    height: 100%;
+    padding-top: 250px;
+    opacity: 0.6;
+  }
 }
 
 .footer {
