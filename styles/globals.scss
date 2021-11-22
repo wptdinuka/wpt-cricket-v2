@@ -13,4 +13,12 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.offcanvas-header {
+  background-color: #0070f3;
+  height: 150px;
 }

@@ -2,8 +2,10 @@
 ///////////////////////////////////////////////////////////////////////////////////
 
 .header {
-  text-align: center;
+  text-align: start;
   background-color: #0070f3;
+  padding-left: 20px;
+  margin-left: 20px;
   h1 {
     padding-top: 20px;
     margin: 0;
@@ -20,30 +22,56 @@
 
 //Navbar
 ///////////////////////////////////////////////////////////////////////////////////
-
-.navbar {
+.navbarcontainer {
   width: 100%;
-  background-color: #0070f3;
-  overflow: auto;
 
-  li {
-    float: left;
-    padding: 12px;
+  h5 {
+    font-size: 50px;
+    line-height: 45px;
+    color: white;
+  }
+
+  button {
+    background-color: black;
+    position: fixed;
+    top: 50px;
+    right: 30px;
+    width: 100px;
+    height: 80px;
+
+    .icon1 {
+      position: relative;
+      font-size: 80px;
+      margin-top: -35px;
+    }
+    .icon2 {
+      position: relative;
+      font-size: 70px;
+      margin-top: -15px;
+    }
+  }
+
+  .nav {
+    display: grid;
+    padding: 10px;
     list-style: none;
     font-size: 25px;
     font-weight: 600;
-    width: 25%;
-    text-align: center;
-    border-collapse: collapse;
+    row-gap: 20px;
 
-    :hover {
-      background-color: white;
-      padding: 12px 20px;
-      transition: 0.4s;
+    .navitem {
+      font-size: 30px;
+      border: #0070f3 2px solid;
+      padding-left: 10px;
+
+      :link {
+        text-decoration: none;
+      }
     }
 
-    :active {
-      background-color: #0070f3;
+    :hover {
+      padding-left: 30px;
+      transition: 0.6s;
     }
   }
 }
@@ -53,7 +81,6 @@
 
 .title {
   font-size: 45px;
-  text-align: center;
   border: black 3px solid;
   padding: 1% 30%;
 }

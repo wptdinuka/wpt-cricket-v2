@@ -7,10 +7,10 @@ const Layout = ({children}) => {
         <div className={styles.container}>
             <div className={styles.header}>
             <h1>
-                 WPT-Movies
+                 WPT-Cricket
             </h1>
             <h2>
-                 -Recommedations and Reviews-
+                 -Road to the World-Cup-
             </h2>
              </div>
             <Navbar/>

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Layout.module.scss'
 
-function Upcoming() {
+function Records() {
   return (
     <div className={styles.container}>
       <Head>
@@ -13,7 +13,7 @@ function Upcoming() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Upcoming
+          Records
         </h1>
 
         
@@ -25,4 +25,4 @@ function Upcoming() {
 }
 
 
-export default Upcoming
+export default Records
