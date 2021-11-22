@@ -39,22 +39,28 @@ export const Navbar = () => {
 
   <div className="offcanvas-body">
   <ul className={styles.nav}>
-                <li className={styles.navitem} >
-                    <Link href='/'>Home</Link>
+                <li className={styles.navitem} type="button"  
+        data-bs-dismiss="offcanvas" aria-label="Close" >
+                    <Link href='/' data-bs-dismiss="offcanvas" >Home</Link>
                 </li>
-                <li className={styles.navitem} >
+                <li className={styles.navitem} type="button"  
+        data-bs-dismiss="offcanvas" aria-label="Close" >
                     <Link href='/live'>Live Score</Link>
                 </li>
-                <li className={styles.navitem} >
+                <li className={styles.navitem} type="button"  
+        data-bs-dismiss="offcanvas" aria-label="Close" >
                     <Link href='/upcoming'>Upcoming-Fixtures</Link>
                 </li>
-                <li className={styles.navitem} >
+                <li className={styles.navitem} type="button"  
+        data-bs-dismiss="offcanvas" aria-label="Close" >
                     <Link href='/results'>Results</Link>
                 </li>
-                <li className={styles.navitem} >
+                <li className={styles.navitem} type="button"  
+        data-bs-dismiss="offcanvas" aria-label="Close" >
                     <Link href='/players'>Players</Link>
                 </li>
-                <li className={styles.navitem} >
+                <li className={styles.navitem} type="button"  
+        data-bs-dismiss="offcanvas" aria-label="Close" >
                     <Link href='/records'>Records</Link>
                 </li>
                 
