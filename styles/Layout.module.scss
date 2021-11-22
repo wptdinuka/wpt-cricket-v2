@@ -64,16 +64,16 @@
     .navitem {
       font-size: 30px;
       border: #0070f3 2px solid;
-      background: transparent;
 
       :link {
         text-decoration: none;
-      }
-    }
+        padding: 0px 90px;
 
-    :hover {
-      color: black;
-      transition: 0.3s;
+        :hover {
+          color: black;
+          transition: 0.3s;
+        }
+      }
     }
   }
 }
@@ -257,6 +257,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-bottom: 50px;
+  margin-left: -30px;
 
   .record {
     display: flex;

@@ -49,7 +49,7 @@ export const Navbar = () => {
                 </li>
                 <li className={styles.navitem} type="button"  
         data-bs-dismiss="offcanvas" aria-label="Close" >
-                    <Link href='/upcoming'>Upcoming-Fixtures</Link>
+                    <Link href='/upcoming'>Fixtures</Link>
                 </li>
                 <li className={styles.navitem} type="button"  
         data-bs-dismiss="offcanvas" aria-label="Close" >
