@@ -262,20 +262,22 @@
   .record {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
 
     h2 {
       position: absolute;
-      background-color: rgba(black, 0.7);
-      padding-top: 480px;
-      padding-right: 390px;
-      color: white;
-      font-size: 60px;
+      padding-top: 350px;
+      padding-left: 30px;
+      color: black;
+      font-size: 30px;
       opacity: 0;
     }
   }
 
   :hover {
+    opacity: 0.5;
+    transition: 0.5s ease-out;
+
     h2 {
       opacity: 1;
       transition: 0.5s ease-out;

@@ -18,7 +18,14 @@ function Live( {live} ) {
           Live
         </h1>
 
+        <video 
+      src="video/uc.mp4"  
+      autoPlay
+      muted={true}  
+      loop={true}
+      id="myVideo" >
       
+      </video>
         
       </main>
 

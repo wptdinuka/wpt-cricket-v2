@@ -25,7 +25,7 @@ function Records() {
             height="550px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
+            <h2>HIGHEST TOTAL INNING</h2>
           </li>
           <li className={styles.record}>
             <Image 
@@ -34,7 +34,7 @@ function Records() {
             height="550px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
+            <h2>MOST CAREER RUNS</h2>
           </li>
           <li className={styles.record}>
             <Image 
@@ -43,7 +43,7 @@ function Records() {
             height="550px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
+            <h2>MOST CAREER WICKETS</h2>
           </li>
           <li className={styles.record}>
             <Image 
@@ -52,7 +52,7 @@ function Records() {
             height="550px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
+            <h2>HIGHEST PARTNERSHIP</h2>
           </li>
           <li className={styles.record}>
             <Image 
@@ -61,7 +61,7 @@ function Records() {
             height="550px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
+            <h2>THIRD MOST CAREER RUNS</h2>
           </li>
           <li className={styles.record}>
             <Image 
@@ -70,7 +70,7 @@ function Records() {
             height="550px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
+            <h2>HAT-TRICK</h2>
           </li>
 
           </ul>

@@ -24,8 +24,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>KUSAL PERERA</h2>
+            <h3>KEEPER/BATSMEN</h3>
           </li>
           <li className={styles.card}>
             <Image 
@@ -34,8 +34,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>PATHUM NISSANKA</h2>
+            <h3>BATSMEN</h3>
           </li>
           <li className={styles.card}>
             <Image 
@@ -44,8 +44,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>CHARITH ASALANKA</h2>
+            <h3>BATSMEN</h3>
           </li>
           <li className={styles.card}> 
             <Image 
@@ -54,8 +54,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>BHANUKA RAJAPAKSA</h2>
+            <h3>BATSMEN</h3>
           </li>
           <li className={styles.card}>
             <Image 
@@ -64,8 +64,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>AVISHKA FERNANDO</h2>
+            <h3>BATSMEN</h3>
           </li>
           <li className={styles.card}>
             <Image 
@@ -74,8 +74,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>WANINDU HASARANGA</h2>
+            <h3>ALL-ROUNDER</h3>
           </li>
           <li className={styles.card}>
             <Image 
@@ -84,8 +84,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>DASUN SHANAKAE</h2>
+            <h3>ALL-ROUNDER</h3>
           </li>
           <li className={styles.card}>
             <Image 
@@ -94,8 +94,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>CHAMIKA KARUNARATNE</h2>
+            <h3>ALL-ROUNDER</h3>
           </li>
           <li className={styles.card}>
             <Image 
@@ -104,8 +104,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>DUSHMANTHA CHAMEERA</h2>
+            <h3>BOWLER</h3>
           </li>
           <li className={styles.card}>
             <Image 
@@ -114,8 +114,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>MAHEESH THEEKSHANA</h2>
+            <h3>BOWLER</h3>
           </li>
           <li className={styles.card}>
             <Image 
@@ -124,8 +124,8 @@ function Players() {
             height="200px"
             layout="fixed" 
             alt="" />
-            <h2>Name</h2>
-            <h3>position</h3>
+            <h2>LAHIRU KUMARA</h2>
+            <h3>BOWLER</h3>
           </li>
         </ul>
 
