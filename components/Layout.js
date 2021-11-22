@@ -10,7 +10,7 @@ const Layout = ({children}) => {
                  WPT-Cricket
             </h1>
             <h2>
-                 -Road to the World-Cup-
+                 -SL-Cricket-Road to the World-Cup-
             </h2>
              </div>
             <Navbar/>

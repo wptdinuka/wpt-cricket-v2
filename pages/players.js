@@ -16,6 +16,119 @@ function Players() {
           Players
         </h1>
 
+        <ul className={styles.playerlist}>
+          <li className={styles.card}>
+            <Image 
+            src="/images/p1.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+          <li className={styles.card}>
+            <Image 
+            src="/images/p2.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+          <li className={styles.card}>
+            <Image 
+            src="/images/p3.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+          <li className={styles.card}> 
+            <Image 
+            src="/images/p4.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+          <li className={styles.card}>
+            <Image 
+            src="/images/p5.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+          <li className={styles.card}>
+            <Image 
+            src="/images/p6.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+          <li className={styles.card}>
+            <Image 
+            src="/images/p7.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+          <li className={styles.card}>
+            <Image 
+            src="/images/p8.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+          <li className={styles.card}>
+            <Image 
+            src="/images/p9.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+          <li className={styles.card}>
+            <Image 
+            src="/images/p10.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+          <li className={styles.card}>
+            <Image 
+            src="/images/p11.jpg"
+            width="200px"
+            height="200px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+            <h3>position</h3>
+          </li>
+        </ul>
+
         
       </main>
 

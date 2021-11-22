@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Layout.module.scss'
 
-function Results() {
+function Results( {result} ) {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,12 +16,40 @@ function Results() {
           Results
         </h1>
 
-        
+        <ul className={styles.resultlist}>
+        {result.results.map((item,id)  => (
+          <li key={id} className={styles.card} >
+          <h3 > {item.match_title} </h3> 
+          <p> {item.match_subtitle} </p>
+          <h4> {item.result} </h4>
+          <p> {item.venue} </p>
+          <h3> {item.status} </h3>
+          </li>
+        ))}
+        </ul>
       </main>
 
     
     </div>
   )
+}
+
+
+export const getStaticProps = async () => {
+  const res = await fetch("https://cricket-live-data.p.rapidapi.com/results", {
+    "method": "GET",
+    "headers": {
+      "x-rapidapi-host": "cricket-live-data.p.rapidapi.com",
+      "x-rapidapi-key": "2ddc4c8cb4msh0c9e366b10869f2p1df196jsn9f56ebef905e"
+    }
+  })
+  
+  const result = await res.json()
+  return {
+    props: {
+      result
+    }
+  }
 }
 
 

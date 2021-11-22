@@ -16,6 +16,65 @@ function Records() {
           Records
         </h1>
 
+
+        <ul className={styles.recordlist}>
+          <li className={styles.record}>
+            <Image 
+            src="/images/g1.jpg"
+            width="550px"
+            height="550px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+          </li>
+          <li className={styles.record}>
+            <Image 
+            src="/images/g2.jpg"
+            width="550px"
+            height="550px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+          </li>
+          <li className={styles.record}>
+            <Image 
+            src="/images/g3.jpg"
+            width="550px"
+            height="550px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+          </li>
+          <li className={styles.record}>
+            <Image 
+            src="/images/g4.jpg"
+            width="550px"
+            height="550px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+          </li>
+          <li className={styles.record}>
+            <Image 
+            src="/images/g5.jpg"
+            width="550px"
+            height="550px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+          </li>
+          <li className={styles.record}>
+            <Image 
+            src="/images/g6.jpg"
+            width="550px"
+            height="550px"
+            layout="fixed" 
+            alt="" />
+            <h2>Name</h2>
+          </li>
+
+          </ul>
+
         
       </main>
 
